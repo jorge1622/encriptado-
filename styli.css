@@ -1,0 +1,361 @@
+body {
+  background: rgb(42, 38, 38);
+  color: aliceblue;
+}
+.imagenHeader {
+  width: 120px;
+  height: 60px;
+  margin: 40px;
+  max-width: 65px;
+  border-radius: 20%;
+}
+
+main {
+  float: left;
+}
+
+.ingresoDeTextoIcriptar {
+  width: 650px;
+  height: 70%;
+  background: rgb(42, 38, 38);
+  margin-left: 100px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 25px;
+  border-radius: 15px;
+  transition: 1.2s;
+}
+
+.pTextoAIncriptar {
+  margin-left: 50px;
+  transition: 2s;
+}
+
+.pTextoAIncriptar:hover {
+  transform: scale(1.1);
+}
+.advertencia {
+  margin-top: 10px;
+  margin-left: 150px;
+  font-size: 21px;
+  font-weight: bolder;
+  color: rgb(176, 183, 221);
+}
+.advertencia:hover {
+  color: red;
+}
+
+.botones {
+  margin-top: 20px;
+  margin-left: 150px;
+  height: 50px;
+}
+
+.bIncriptar {
+  width: 190px;
+  height: 47px;
+  border-radius: 15px;
+  color: rgb(251, 251, 255);
+  background: blue;
+  font-size: 20px;
+  transition: 2s;
+  margin-left: 60px;
+}
+
+.bDesencriptar {
+  width: 190px;
+  height: 47px;
+  margin-left: 100px;
+  border-radius: 15px;
+  font-size: 20px;
+  color: rgb(251, 251, 255);
+  background: blue;
+  transition: 2s;
+}
+
+.bIncriptar:hover {
+  background: rgb(179, 9, 9);
+  transform: scale(1.2);
+}
+
+.bDesencriptar:hover {
+  background: rgb(179, 9, 9);
+  transform: scale(1.2);
+}
+
+.mensajeFinal {
+  background-color: rgb(149, 144, 144);
+  float: right;
+  margin: 15px 80px 18px 0;
+  height: 530px;
+  width: 590px;
+  border-radius: 15px;
+}
+
+.mensajeInDes {
+  margin: 248px 50px;
+  background-color: none;
+  color: rgb(53, 50, 50);
+  font-weight: bold;
+  text-align: center;
+  font-size: 18px;
+  transition: 2s;
+}
+
+.cajaBotonCopiar {
+  margin: 0 50px;
+}
+.bcopiar {
+  width: 190px;
+  height: 47px;
+  margin-left: 10px;
+  border-radius: 15px;
+  font-size: 20px;
+  color: rgb(251, 251, 255);
+  background: blue;
+  transition: 2s;
+}
+
+.bcopiar:hover {
+  background: rgb(179, 9, 9);
+  transform: scale(1.2);
+}
+
+textarea {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  width: 700px;
+  height: 520px;
+  border-radius: 15px;
+  font-size: 20px;
+  background: rgb(42, 38, 38);
+  color: aliceblue;
+  border: transparent;
+}
+
+.textarea2 {
+  background: rgb(149, 144, 144);
+  width: 590px;
+  height: 530px;
+}
+
+@media screen and (max-width: 1024px) {
+  .ingresoDeTextoIcriptar {
+    width: 400px;
+    height: 400px;
+    margin-left: 10px;
+    margin-top: 5px;
+  }
+  textarea {
+    width: 450px;
+    height: 400px;
+    margin-left: 10px;
+    margin-top: 5px;
+    font-size: 30px;
+    font-size: 20px;
+  }
+  .textarea2 {
+    width: 400px;
+    height: 400px;
+  }
+
+  .pTextoAIncriptar {
+    margin-left: 10px;
+    font-size: 25px;
+  }
+  .advertencia {
+    margin-left: 10px;
+    font-size: 20px;
+  }
+  .botones {
+    margin-left: 1px;
+  }
+  .bIncriptar {
+    width: 100px;
+    margin-left: 50px;
+  }
+  .bDesencriptar {
+    margin-left: 50px;
+    width: 125px;
+  }
+
+  .mensajeFinal {
+    height: 400px;
+    width: 430px;
+    margin: 30px 20px 15px 0;
+    font-size: 20px;
+    transform: scale(none);
+    font-weight: bold;
+    text-align: center;
+  }
+}
+
+.mensajeInDes {
+  margin-top: 60px;
+  margin: 160px 0 15px 0;
+  font-size: 20px;
+}
+
+.bcopiar {
+  width: 90px;
+  height: 50px;
+  margin: 10px 50px 5px 400px;
+}
+
+@media screen and (max-width: 820px) {
+  .ingresoDeTextoIcriptar {
+    width: 360px;
+    height: 230px;
+    margin-left: 10px;
+  }
+  textarea {
+    width: 300px;
+    height: 230px;
+    margin-left: 10px;
+    font-size: 20px;
+  }
+
+  .textarea2 {
+    width: 300px;
+    height: 250px;
+  }
+  .pTextoAIncriptar {
+    margin-left: 10px;
+    font-size: 25px;
+  }
+  .advertencia {
+    margin-left: 5px;
+    font-size: 20px;
+  }
+  .botones {
+    margin-left: 1px;
+  }
+  .bIncriptar {
+    width: 100px;
+    margin-left: 70px;
+  }
+  .bDesencriptar {
+    margin-left: 30px;
+    width: 125px;
+  }
+  .mensajeFinal {
+    width: 350px;
+    height: 220px;
+    margin-left: 10px;
+    float: left;
+  }
+  .mensajeInDes {
+    margin: 80px 0 15px 0;
+    font-size: 20px;
+  }
+
+  .bcopiar {
+    width: 90px;
+    height: 50px;
+    margin: 10px 0 5px 100px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .ingresoDeTextoIcriptar {
+    width: 360px;
+    height: 230px;
+    margin-left: 10px;
+  }
+  textarea {
+    width: 300px;
+    height: 230px;
+    margin-left: 10px;
+    font-size: 20px;
+  }
+
+  .textarea2 {
+    width: 300px;
+    height: 250px;
+  }
+  .pTextoAIncriptar {
+    margin-left: 10px;
+    font-size: 25px;
+  }
+  .advertencia {
+    margin-left: 5px;
+    font-size: 20px;
+  }
+  .botones {
+    margin-left: 1px;
+  }
+  .bIncriptar {
+    width: 100px;
+    margin-left: 70px;
+  }
+  .bDesencriptar {
+    margin-left: 30px;
+    width: 125px;
+  }
+  .mensajeFinal {
+    width: 350px;
+    height: 220px;
+    margin-left: 10px;
+    float: left;
+  }
+  .mensajeInDes {
+    margin: 80px 0 15px 0;
+    font-size: 20px;
+  }
+
+  .bcopiar {
+    width: 90px;
+    height: 50px;
+    margin: 10px 0 5px 80px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .ingresoDeTextoIcriptar {
+    width: 360px;
+    height: 230px;
+    margin-left: 10px;
+  }
+  textarea {
+    width: 360px;
+    height: 230px;
+    margin-left: 10px;
+    font-size: 20px;
+  }
+  .pTextoAIncriptar {
+    margin-left: 10px;
+    font-size: 25px;
+  }
+  .advertencia {
+    margin-left: 5px;
+    font-size: 20px;
+  }
+  .botones {
+    margin-left: 1px;
+  }
+  .bIncriptar {
+    width: 100px;
+    margin-left: 70px;
+  }
+  .bDesencriptar {
+    margin-left: 30px;
+    width: 125px;
+  }
+  .mensajeFinal {
+    width: 370px;
+    height: 400px;
+    margin-left: 10px;
+    float: left;
+  }
+  .mensajeInDes {
+    margin-top: px;
+    margin: 160px 0 15px 0;
+    font-size: 20px;
+  }
+
+  .bcopiar {
+    width: 90px;
+    height: 50px;
+    margin: 10px 0 5px 100px;
+  }
+}
